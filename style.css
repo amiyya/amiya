@@ -1,75 +1,89 @@
 @font-face {
-     font-family: 'atlas-pro';
-     src: url('fonts/atlas-pro/300/atlas-pro-aaa-300.woff') format('woff');
-     font-weight: 300;
-     font-style: normal;
- }
-
- @font-face {
-     font-family: 'atlas-pro';
-     src: url('fonts/atlas-pro/400/aatlas-pro-aaa-400.woff') format('woff');
-     font-weight: 400;
-     font-style: normal;
- }
-
- @font-face {
-     font-family: 'atlas-pro';
-     src: url('fonts/atlas-pro/700/atlas-pro-aaa-700.woff') format('woff');
-     font-weight: 700;
-     font-style: normal;
- }
-h1 ,h2 ,h3 {
-    font-family: 'atlas-pro';
-    font-weight: 400px;
+  font-family: 'atlas-pro';
+  src: url('fonts/atlas-pro/700/atlas-pro-aaa-700.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('fonts/opensans/400/opensanshebrew-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
 
- body {
-     background:
-     background-image: color: #fff;
-     margin: 0;
-     font-family: 'atlas-pro', sans-serif;
-     line-height: 1.5;
-     font-size: 20px;
- }
+h1,h2,h3 {
+    font-family: 'atlas-pro'; 
+    font-weight: 700;
+}
 
- img {
+body {
+    font-family: 'opensans', arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+     font-size: 20px;
+     margin: 0;
+}
+
+img {
      max-width: 100%;
      width: auto;
      height: auto;
  }
-
- h1 {
-     font-size: 6vw;
+h1 {
+     font-size: 5vw;
      font-family: 'atlas-pro';
      font-weight: 700;
+    color: #566A5F;
+    margin: 20px;
+  
  }
 
  h2 {
-     font-size: 40px; 
+     font-size: 4vw; 
    font-family: 'atlas-pro';
      font-weight: 400;
  }
 
- .container {
-     max-width: 980px;
+p {
+    font-size: 2vw; 
+   font-family: 'opensans';
+     font-weight: 400;
+}
+
+.logo {
+    max-width: 150px;
+    padding: 15px;
+}
+
+.banner {
+    background: url(img/back1.jpg) center;
+    background-position: center 40%;
+     background-size: cover;
+     height: 800px;
+     text-align: center;
+     padding: 50px 0;
+}
+
+.img .header {
+     max-width: 10%;
+ }
+
+header {
+     max-width: 100%;
+     width: 100px;
+ }
+
+.container {
+   max-width: 1500px;
      margin: 10px auto;
      padding: 20px 10px;
      display: block;
      text-decoration: none;
      text-align: center;
- }
+    
+}
 
- .banner {
-     background-image:
-         url(img/zero-waste-concept-paper-tableware.jpg);
-     background-position: center 40%;
-     background-size: cover;
-     height: 600px;
-     text-align: center;
-     padding: 50px 0;
- }
-
- .button {
+.button {
      text-decoration: none;
      color: #000;
      background: #c7a17a;
@@ -77,33 +91,17 @@ h1 ,h2 ,h3 {
      display: inline-block;
  }
 
- .button:hover {
+.button:hover {
      background: #30271c;
      color: #fff;
  }
-
-
- a {
+a {
      font-size: 60px;
      color: 2B3827;
      text-decoration: none;
      margin-top: 40px;
      table-layout: inherit;
  }
-
- .img .header {
-     max-width: 10%;
- }
-
- header {
-     max-width: 100%;
-     width: 100px;
- }
-
- .logo {
-     max-width: 200px;
- }
-
 .features {
     list-style: none;
     padding: 0;
@@ -115,45 +113,20 @@ h1 ,h2 ,h3 {
     max-width: 400px;
     text-align: center;  
 }
+.features ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 56;  
+    
+}
 
 .about {
     text-align: center;
 }
 
 .about a {
-   color: aqua;
+   color: #30271c;
 }
 
-footer {
-  background: #000;
-  color: #fff;
-  text-align: center;
-  padding: 5px;
-}
-footer a {
-  color: #c7a17a;
-}
-.about {
-  position: relative;
-  padding: 56px 0 84px;
-}
-.custom-shape-divider-bottom-1615827767 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1615827767 svg {
-    position: relative;
-    display: block;
-    width: calc(143% + 1.3px);
-    height: 73px;
-}
-
-.custom-shape-divider-bottom-1615827767 .shape-fill {
-    fill: #FFFFFF;
-}
