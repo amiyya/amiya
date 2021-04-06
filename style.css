@@ -42,6 +42,7 @@ h1 {
      font-size: 4vw; 
    font-family: 'atlas-pro';
      font-weight: 400;
+     text-align: center;
  }
 
 p {
@@ -56,8 +57,8 @@ p {
 }
 
 .banner {
-    background: url(img/back1.jpg) center;
-    background-position: center 40%;
+    background: url(img/strip.jpg) center;
+    background-position: center 50%;
      background-size: cover;
      height: 800px;
      text-align: center;
@@ -68,10 +69,7 @@ p {
      max-width: 10%;
  }
 
-header {
-     max-width: 100%;
-     width: 100px;
- }
+
 
 .container {
    max-width: 1500px;
@@ -107,10 +105,11 @@ a {
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 50px;  
+    grid-gap: 50px; 
+    
 }
 .features img {
-    max-width: 400px;
+    max-width: 200px;
     text-align: center;  
 }
 .features ul {
@@ -124,9 +123,36 @@ a {
 
 .about {
     text-align: center;
+    background: #F6EDE2;
 }
 
 .about a {
    color: #30271c;
 }
 
+header {
+  text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+    background: #566A5F;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border: 1px;
+    
+    
+}
+
+
+footer {
+     background: url(img/Paper.jpg) center;
+}
