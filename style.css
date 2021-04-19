@@ -70,7 +70,7 @@ p {
  }
 
 .banner .container {
-    background-color: #ffff;
+    background-image: linear-gradient(rgba (255 ,255 ,255, 0.9),rgba (255 ,255 ,255, 0.9));
     border: 2px;
 }
 
