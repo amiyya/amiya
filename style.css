@@ -77,8 +77,9 @@ p {
  }
 
 .banner .container {
-    background-image: linear-gradient(rgba (255 ,255 ,255, 0.9),rgba (255 ,255 ,255, 0.9));
-    border: 2px;
+    border: 5px solid none;
+    background: rgba(255 ,255 ,255, 0.5)
+        
 }
 
 .container {
@@ -173,4 +174,8 @@ nav a:hover{
 
 footer {
      background: url(img/Paper.jpg) center;
+}
+
+.current a { 
+    font-weight: bold;    
 }
