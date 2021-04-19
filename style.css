@@ -67,9 +67,13 @@ p {
     background: url(img/strip.jpg) center;
     background-position: center 50%;
      background-size: cover;
-     height: 800px;
+     min-height: 40vw;
      text-align: center;
      padding: 50px 0;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .img .header {
@@ -78,7 +82,9 @@ p {
 
 .banner .container {
     border: 5px solid none;
-    background: rgba(255 ,255 ,255, 0.5)
+    background: rgba(255 ,255 ,255, 0.8);
+    max-width: 1000px;
+    padding: 50px;
         
 }
 
@@ -89,6 +95,7 @@ p {
      display: block;
      text-decoration: none;
      text-align: center;
+    margin: 0 auto;
     
 }
 
@@ -105,7 +112,7 @@ p {
      color: #fff;
  }
 a {
-     font-size: 60px;
+     font-size: 24px;
      color: 2B3827;
      text-decoration: none;
      margin-top: 40px;
@@ -171,6 +178,10 @@ nav a:hover{
     color: #719267;
 }
 
+.banner h1 {
+    font-weight: 400;
+    font-size: 80px;
+}
 
 footer {
      background: url(img/Paper.jpg) center;
