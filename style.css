@@ -69,7 +69,10 @@ p {
      max-width: 10%;
  }
 
-
+.banner .container {
+    background-color: #ffff;
+    border: 2px;
+}
 
 .container {
    max-width: 1500px;
@@ -147,7 +150,7 @@ nav a {
     text-decoration: none;
     color: #fff;
     padding: 10px;
-    border: 1px;
+    border: 5px;
     
     
 }
