@@ -76,6 +76,19 @@ p {
 
 }
 
+.banner .menu {
+    background: url(img/eco-friendly-disposable-tableware-concept-saving-planet-rejection-plastic.jpg) center;
+    background-position: center 50%;
+     background-size: cover;
+     min-height: 40vw;
+     text-align: center;
+     padding: 50px 0;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 .img .header {
      max-width: 10%;
  }
@@ -119,12 +132,7 @@ a {
      table-layout: inherit;
  }
 .features {
-    list-style: none;
     padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 50px; 
-    
 }
 .features img {
     max-width: 200px;
@@ -135,8 +143,7 @@ a {
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 56;  
-    
+    grid-gap: 56;      
 }
 
 .about {
@@ -183,10 +190,12 @@ nav a:hover{
     font-size: 80px;
 }
 
-footer {
+.footer {
      background: url(img/Paper.jpg) center;
+     background: url(img/strip.jpg) center;
 }
 
 .current a { 
     font-weight: bold;    
 }
+
