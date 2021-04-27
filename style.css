@@ -76,7 +76,7 @@ p {
 
 }
 
-.banner .menu {
+.menu .banner {
     background: url(img/eco-friendly-disposable-tableware-concept-saving-planet-rejection-plastic.jpg) center;
     background-position: center 50%;
      background-size: cover;
@@ -190,10 +190,9 @@ nav a:hover{
     font-size: 80px;
 }
 
-.footer {
+footer {
      background: url(img/Paper.jpg) center;
-     background: url(img/strip.jpg) center;
-}
+    }
 
 .current a { 
     font-weight: bold;    
