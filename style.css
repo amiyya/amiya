@@ -1,25 +1,28 @@
 @font-face {
-  font-family: 'atlas-pro';
-  src: url('fonts/atlas-pro/700/atlas-pro-aaa-700.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'atlas-pro';
-  src: url('fonts/atlas-pro/400/atlas-pro-aaa-400.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'atlas-pro';
+    src: url('fonts/atlas-pro/700/atlas-pro-aaa-700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'opensans';
-  src: url('fonts/opensans/400/opensanshebrew-regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'atlas-pro';
+    src: url('fonts/atlas-pro/400/atlas-pro-aaa-400.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 
-h1,h2,h3 {
-    font-family: 'atlas-pro'; 
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/opensans/400/opensanshebrew-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'atlas-pro';
     font-weight: 700;
 }
 
@@ -27,35 +30,36 @@ body {
     font-family: 'atlas-pro', arial, sans-serif;
     font-size: 30px;
     line-height: 1.5;
-     font-size: 20px;
-     margin: 0;
+    font-size: 20px;
+    margin: 0;
 }
 
 img {
-     max-width: 100%;
-     width: auto;
-     height: auto;
- }
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
 h1 {
-     font-size: 5vw;
-     font-family: 'atlas-pro';
-     font-weight: 700;
+    font-size: 5vw;
+    font-family: 'atlas-pro';
+    font-weight: 700;
     color: #566A5F;
     margin: 20px;
-  
- }
 
- h2 {
-     font-size: 4vw; 
-   font-family: 'atlas-pro';
-     font-weight: 400;
-     text-align: center;
- }
+}
+
+h2 {
+    font-size: 3vw;
+    font-family: 'atlas-pro';
+    font-weight: 400;
+    text-align: center;
+}
 
 p {
     font-size: 28px;
-   font-family: 'atlas-pro';
-     font-weight: 400;
+    font-family: 'atlas-pro';
+    font-weight: 400;
 }
 
 .logo {
@@ -66,104 +70,110 @@ p {
 .banner {
     background: url(img/strip.jpg) center;
     background-position: center 50%;
-     background-size: cover;
-     min-height: 40vw;
-     text-align: center;
-     padding: 50px 0;
+    background-size: cover;
+    min-height: 40vw;
+    text-align: center;
+    padding: 50px 0;
     display: flex;
-  flex-direction: column;
-  justify-content: center;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
 .menu .banner {
     background: url(img/eco-friendly-disposable-tableware-concept-saving-planet-rejection-plastic.jpg) center;
     background-position: center 50%;
-     background-size: cover;
-     min-height: 40vw;
-     text-align: center;
-     padding: 50px 0;
+    background-size: cover;
+    min-height: 40vw;
+    text-align: center;
+    padding: 50px 0;
     display: flex;
-  flex-direction: column;
-  justify-content: center;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
 .img .header {
-     max-width: 10%;
- }
+    max-width: 10%;
+}
 
 .banner .container {
     border: 5px solid none;
-    background: rgba(255 ,255 ,255, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     max-width: 1000px;
     padding: 50px;
-        
+
 }
 
 .container {
-   max-width: 1500px;
-     margin: 10px auto;
-     padding: 20px 10px;
-     display: block;
-     text-decoration: none;
-     text-align: center;
-    margin: 0 auto;
-    
+    max-width: 1500px;
+    margin: 10px auto;
+    padding: 20px 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 50px auto;
+
 }
 
 .button {
-     text-decoration: none;
-     color: #000;
-     background: #c7a17a;
-     padding: 10px 40px;
-     display: inline-block;
- }
+    text-decoration: none;
+    color: #000;
+    background: #c7a17a;
+    padding: 10px 40px;
+    display: inline-block;
+}
 
 .button:hover {
-     background: #30271c;
-     color: #fff;
- }
+    background: #30271c;
+    color: #fff;
+}
+
 a {
-     font-size: 24px;
-     color: 2B3827;
-     text-decoration: none;
-     margin-top: 40px;
-     table-layout: inherit;
- }
+    font-size: 24px;
+    color: 2B3827;
+    text-decoration: none;
+    margin-top: 40px;
+    table-layout: inherit;
+}
+
 .features {
     padding: 0;
+  
 }
+
 .features img {
     max-width: 200px;
-    text-align: center;  
+    text-align: center;
 }
+
 .features ul {
     list-style: none;
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 56;      
+    grid-gap: 56;
 }
 
 .about {
     text-align: center;
     background: #F6EDE2;
+    padding: 15px;
 }
 
 .about a {
-   color: #30271c;
+    color: #30271c;
 }
 
 header {
-  text-align: center;
-    
+    text-align: center;
+
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    display: flex; 
+    display: flex;
     justify-content: center;
     background: #fff;
     padding: 16px;
@@ -181,7 +191,7 @@ nav a {
     font-weight: 700;
 }
 
-nav a:hover{
+nav a:hover {
     color: #719267;
 }
 
@@ -191,10 +201,59 @@ nav a:hover{
 }
 
 footer {
-     background: url(img/Paper.jpg) center;
-    }
-
-.current a { 
-    font-weight: bold;    
+    background: url(img/Paper.jpg);
+    background-position: bottom 50%;
+    background-size: cover;
+    min-height: 40vw;
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.current a {
+    font-weight: bold;
+}
+
+.them-wrap {
+    background: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.them {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.them li {
+    margin: 60px;
+    max-width: 450px;
+
+}
+.them h3{
+    margin: 0;
+    
+    
+}
+
+.them img{
+    border-radius: 50%;
+    border: #566A5F;
+    border-color: #566A5F;
+    border-width: medium; 
+}
+
+.them-wrap .li {
+    border: #000000;
+    
+}
+
+
+.table .h2 {
+    margin: 1px;
+    padding: 1px;
+}
