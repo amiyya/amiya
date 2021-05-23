@@ -227,10 +227,10 @@ footer {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 .them li {
-    margin: 60px;
+    margin: 20px;
     max-width: 450px;
 
 }
@@ -242,18 +242,111 @@ footer {
 
 .them img{
     border-radius: 50%;
-    border: #566A5F;
-    border-color: #566A5F;
-    border-width: medium; 
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 0px 5px #566a5f;
+
 }
 
 .them-wrap .li {
-    border: #000000;
+    border: 3px solid #000000;
+    border-radius: 18px;
     
 }
 
 
-.table .h2 {
+.table h2 {
     margin: 1px;
     padding: 1px;
+    
 }
+
+.them-wrap h2 {
+    padding: 10px;
+    margin: 0;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    font-size: 2vw; 
+    
+}
+
+.grid-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+form {
+  width: 900px;
+  margin: auto;
+}
+input, textarea {
+  font: inherit;
+  color: inherit;
+  display: block;
+  border: 2px solid #000;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input, textarea {
+  font: inherit;
+  color: inherit;
+  display: block;
+  border: 2px solid #000;
+  padding: 5px;
+}
+
+label {
+  margin-bottom: 20px;
+  display: block;
+}
+
+
+
+.video {
+
+}
+
+.features p {
+padding: 10px;
+    margin: 0;
+    border: 5px solid #566A5F;
+    border-radius: 10px;
+   
+}
+
+header li {
+    list-style: none;
+    
+}
+
+basket .container {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 16px;
+    
+}
+
+.basket ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    
+}
+.header .logo {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
