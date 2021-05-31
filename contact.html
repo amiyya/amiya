@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <title>כלים ירוקים | עורכים שולחן</title>
   <link rel="stylesheet" href="style.css">
+  <!-- jQuery 1.8 or later, 33 KB -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Fotorama from CDNJS, 19 KB -->
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 </head>
 <body>
 <header>
@@ -24,16 +30,14 @@
     </header>
     <div class="table"></div>
      <div class="container">
-<ul>
-    <li><h2>שולחן ליל הסדר</h2>
-        <img src="img/table%202.jpg" alt=""></li>
-        <li>
-        <img src="img/table%203.jpg" alt=""></li>
-        <li><h2>חג שבועות</h2>
-        <img src="img/table%204.jpg" alt=""></li>
-         <li>
-        <img src="img/table%205.jpg" alt=""></li>
-</ul>
+
+   <div class="fotorama" data-direction="rtl"   data-nav="thumbs"=800  data-fit="cover" data-autoplay="true" data-ratio="1270/700">
+        <img src="img/table%202.jpg" alt="">
+        <img src="img/table%203.jpg" alt="">
+        <img src="img/table%204.jpg" alt="">
+        <img src="img/table%205.jpg" alt="">
+     
+</div>
 </div>
 
 
