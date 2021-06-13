@@ -226,7 +226,7 @@ footer {
     background-image: url(img/Paper.jpg);
     background-position: top 100%;
     background-size: cover;
-    min-height: 40vw;
+    min-height: 30vw;
     text-align: center;
     padding: 50px 0;
     display: flex;
@@ -242,13 +242,15 @@ footer p {
 padding: 10px;
 margin: 0; 
 }
-.footer {
-    background: #566a5f;
-    padding: 20px;
-   margin: 0;   
+
+.disginer {
+background: #566a5f;
+ padding: 20px;
+   margin: 0;
+    background-position: top;
 }
 
-.footer p{
+.disginer p{
    font-size: 16px; 
 }
 
@@ -468,3 +470,5 @@ header>.container
     text-align: center;
     font-size: 35px; 
 }
+
+
