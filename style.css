@@ -34,6 +34,8 @@ body {
     margin: 0;
 }
 
+
+
 img {
     max-width: 100%;
     width: auto;
@@ -46,18 +48,32 @@ h1 {
     font-weight: 700;
     color: #566A5F;
     margin: 20px;
+    animation: pulse 1s;
 
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);    
+    }
+     100% {
+        opacity: 1;
+        transform: translateY(0);    
+    }
 }
 
 h2 {
-    font-size: 3vw;
+    font-size: 30px;
     font-family: 'atlas-pro';
     font-weight: 400;
     text-align: center;
+    animation: pulse 1s;
+    
 }
 
 p {
-    font-size: 28px;
+    font-size: 20px;
     font-family: 'atlas-pro';
     font-weight: 400;
 }
@@ -69,7 +85,7 @@ p {
 }
 
 .banner {
-    background: url(img/strip.jpg) center;
+    background: url(img/eco-friendly-disposable-tableware-concept-saving-planet-rejection-plastic.jpg) center;
     background-position: center 50%;
     background-size: cover;
     min-height: 40vw;
@@ -82,7 +98,7 @@ p {
 }
 
 .menu .banner {
-    background: url(img/eco-friendly-disposable-tableware-concept-saving-planet-rejection-plastic.jpg) center;
+    background: url(img/eco-friendly-bamboo-forks-concept-saving-planet-rejection-plastic.jpg) center;
     background-position: center 50%;
     background-size: cover;
     min-height: 40vw;
@@ -113,7 +129,7 @@ p {
     display: block;
     text-decoration: none;
     text-align: center;
-    margin: 50px auto;
+    margin: 0 auto 50px;
 
 }
 
@@ -132,7 +148,7 @@ p {
 
 a {
     font-size: 24px;
-    color: 2B3827;
+    color: #2B3827;
     text-decoration: none;
     margin-top: 40px;
     table-layout: inherit;
@@ -148,20 +164,21 @@ a {
 }
 
 .features-category {
-padding: 0;
+padding: 30px;
+background: #fff;
 }
 
 .features-category ul {
-    max-width: 80%;
+    max-width: 70%;
     text-align: center;
     text-decoration: none;
     list-style: none;
-     display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 56px;
     padding: 0;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 .features-category p {
@@ -179,7 +196,6 @@ padding: 0;
 
 .about {
     text-align: center;
-    background: #F6EDE2;
     padding: 15px;
 }
 
@@ -197,15 +213,15 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background: #fff;
+    background: rgba(48, 39, 28, 0.8);
     padding: 16px;
-    border: 3px solid #566A5F;
+    
     border-radius: 18px;
 }
 
 nav a {
     text-decoration: none;
-    color: #566A5F;
+    color: #eddbc4;
     padding: 36px;
     border: 5px;
     font-size: 36px;
@@ -214,7 +230,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #566a5f;
+    color: #d3a46c;
 }
 
 .banner h1 {
@@ -223,16 +239,27 @@ nav a:hover {
 }
 
 footer {
-    background-image: url(img/Paper.jpg);
+    background-image: url(img/af30ba6b.png);
     background-position: top 100%;
     background-size: cover;
-    min-height: 30vw;
+    min-height: 15vw;
     text-align: center;
-    padding: 50px 0;
+    padding: 30px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+.opening h2{
+     padding: 5px;
+    margin: auto;
+    color: #566A5F;
+    border-radius: 10px;
+    background: #eddbc4;
+    width: 300px;
+    text-align: center;
+    font-size: 25px; 
+    }
 
 footer a{
     color: #fff;
@@ -243,17 +270,25 @@ padding: 10px;
 margin: 0; 
 }
 
+
+
 .disginer {
-background: #566a5f;
- padding: 20px;
-   margin: 0;
-    background-position: top;
+ background: rgba(48, 39, 28, 0.8);
+padding: 15px;
+    color: #fff;
+background-position: center;
+bottom: inherit;
+     text-align: center;
 }
 
 .disginer p{
    font-size: 16px; 
 }
 
+.disginer a{
+   font-size: 16px;
+    color: #fff;
+}
 
 .current a {
     font-weight: bold;
@@ -275,12 +310,9 @@ background: #566a5f;
 .them li {
     margin: 20px;
     max-width: 450px;
-
 }
 .them h3{
-    margin: 0;
-    
-    
+    margin: 0;      
 }
 
 .them img{
@@ -292,8 +324,7 @@ background: #566a5f;
 
 .them-wrap .li {
     border: 3px solid #000000;
-    border-radius: 18px;
-    
+    border-radius: 18px;  
 }
 
 
@@ -309,9 +340,9 @@ background: #566a5f;
     margin: auto;
     border: 3px solid #000000;
     border-radius: 10px;
-    width: 500px;
+    width: 400px;
     text-align: center;
-    font-size: 40px; 
+    font-size: 30px; 
     
 }
 
@@ -324,24 +355,22 @@ background: #566a5f;
 form {
   width: 900px;
   margin: auto;
+    padding-bottom: 30px;
+
 }
-input, textarea {
-  font: inherit;
-  color: inherit;
-  display: block;
-  border: 2px solid #000;
-  padding: 5px;
-  width: 100%;
-  box-sizing: border-box;
-}
+
+
 
 input, textarea {
   font: inherit;
   color: inherit;
   display: block;
-  border: 2px solid #000;
   padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
 }
+
+
 
 label {
   margin-bottom: 20px;
@@ -386,7 +415,7 @@ basket .container {
     border-color: #566A5F;
 }
 .fotowrap {
-    max-width: 500px;
+    max-width: 4000px;
     text-align: center;
     margin: 40px auto;
 }
@@ -400,22 +429,21 @@ header>.container
 
 
 .products-all {
-     background: #fff;
-    padding: 30px 0;
-    text-align: center;
-    
+     background: url(img/f0d62680.png) center;
+ text-align: center;
+    padding: 0;
 }
-
+html {
+    background: url(img/f2d83f76.png) center; 
+}
 
 .products {
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
-
 
 
 .products p {
@@ -431,7 +459,7 @@ header>.container
 }
 
 .products img{
-    border: 1px solid #566a5f;
+
     max-width: 200px;   
 
 }
@@ -453,22 +481,19 @@ header>.container
 .products-all h2 {
     padding: 5px;
     margin: auto;
-    border: 3px solid #566A5F;
     border-radius: 10px;
-    width: 500px;
+    background: #fff; 
+    width: 400px;
     text-align: center;
-    font-size: 35px; 
+    font-size: 25px; 
+    margin-top: 100px;
 }
 
 
-.opening h2{
-     padding: 5px;
-    margin: auto;
-    border: 3px solid #000;
-    border-radius: 10px;
-    width: 300px;
-    text-align: center;
-    font-size: 35px; 
+
+
+
+
+.video {
+    background:  #fff;
 }
-
-
