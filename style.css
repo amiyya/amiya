@@ -443,6 +443,18 @@ header>.container
  text-align: center;
     padding: 0;
 }
+
+.products-all h2 {
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+    background: #eddbc4; 
+    width: 400px;
+    text-align: center;
+    font-size: 25px; 
+    margin-top: 100px;
+}
+
 html {
     background: url(img/f0d62680.png) center; 
 }
@@ -475,16 +487,7 @@ html {
 }
 
 
-.products-all h2 {
-    padding: 5px;
-    margin: auto;
-    border-radius: 10px;
-    background: #eddbc4; 
-    width: 400px;
-    text-align: center;
-    font-size: 25px; 
-    margin-top: 100px;
-}
+
 
 
 .video {
@@ -494,3 +497,5 @@ html {
 .map h2 {
     color: #566A5F;
 }
+
+
