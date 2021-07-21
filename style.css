@@ -434,7 +434,7 @@ header>.container
     padding: 0;
 }
 html {
-    background: url(img/f2d83f76.png) center; 
+    background: url(img/f0d62680.png) center; 
 }
 
 .products {
@@ -464,19 +464,7 @@ html {
 
 }
 
-/*.caption {
-    font-size: 12px;
-    margin: 0;
-    text-align: center;
-    background: rgba(0,0,0,0.5);
-    color: #566A5F;
-    padding: 5px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    transition: .3s;      
-}*/
+
 
 .products-all h2 {
     padding: 5px;
